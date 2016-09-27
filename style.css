@@ -28,14 +28,28 @@ html {
 		height: 20px;
 
 	}
+
 	div.image-caption {
 		display: flex;
 		float: right;
 		padding: 5;
 
 	
-}
-	div.image-footer > span {
-		font:e6e6e6;
+	}
+	
+
+	div.image-footer span {
+
+		margin-left: 10px;
+		margin-right: 10px;
+		font-style: normal;
+		
+		}
+
+	span.image-number:before {
+		content: "#";
+		font-family: helvetica;
 
 	}
+
+	
