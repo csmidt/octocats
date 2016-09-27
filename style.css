@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
-
+	font-family:helvetica;
+	color: #cccccc
 }
 	*, *:after, *:before
 	{box-sizing: inherit;}
@@ -10,23 +11,36 @@ html {
 	ul{
 		display: flex;
 		list-style: none;
+		padding-left:0;
 	}
 
 	li.octocat > a >img {
 		
-		height: 400px;
-		width: 400px;
+		height: 420px;
+		width: 420px;
 		border: 1px solid #d3d3d3;
 		border-radius: 3px;
 		margin: 5px 5px;
-
+	
 		
+	}
+	
+	li.octocat {
+		padding:10px;
+		border-bottom: 1px solid #cccccc;
+		margin:25px;
+		
+
 	}
 
 	ul.authors >li > a > img {
 		width: 20px;
 		height: 20px;
 
+	}
+
+	.authors {
+		padding-left:0;
 	}
 
 	div.image-caption {
@@ -36,19 +50,19 @@ html {
 
 	
 	}
-	
 
 	div.image-footer span {
 
-		margin-left: 10px;
-		margin-right: 10px;
-		font-style: normal;
-		
-		}
+		margin-left: 5px;
+		margin-right: 5px;
+			
+	}
 
+		
+	
 	span.image-number:before {
 		content: "#";
-		font-family: helvetica;
+		
 
 	}
 
