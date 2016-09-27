@@ -12,6 +12,7 @@ html {
 		display: flex;
 		list-style: none;
 		padding-left:0;
+		flex-wrap: wrap;
 	}
 
 	li.octocat > a >img {
@@ -19,8 +20,8 @@ html {
 		height: 420px;
 		width: 420px;
 		border: 1px solid #d3d3d3;
-		border-radius: 3px;
-		margin: 5px 5px;
+		border-radius: 5px;
+		margin: 5px 3px;
 	
 		
 	}
